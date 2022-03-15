@@ -1,29 +1,122 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Project 120</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+
+<head>
+    <title>Project 120</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
         <center>
             <h1 id="header">Image Identification App</h1>
             <br>
             <label id="label">It is trained on the following objects:</label>
-        <ol>
-        <div id="exampleImages">
-        <img class="images" src="marker.jpg">
-        <img class="images" src="piggybank.jpg">
-        <img class="images" src="ruler.jpg">
-        <img class="images" src="tape.jpg">
-        <img class="images" src="yarn.jpg">
-        </div>
-        <span></span>
-        <span></span>
-        <span></span>
-        </ol>
-        <div class="copy_right_footer">
-            Developed by - Kaylee Kim
-          </div>
+            <div class="exampleImages col-lg-12 col-md-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 testimage">
+                    <b>Test Image - </b>
+                    <img class="images img-responsive" src="marker.jpg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Google Lens:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Mobilenet Model:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn btn-info results">
+                    <h5>Result is - </h5>
+                    <hr>
+                    <h4></h4>
+                </div>
+
+                <br>
+                <br>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img class="images img-responsive" src="piggybank.jpg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Google Lens:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Mobilenet Model:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn btn-info results">
+                    <h5>Result is - </h5>
+                    <hr>
+                    <h4></h4>
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img class="images img-responsive" src="ruler.jpg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Google Lens:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Mobilenet Model:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn btn-info results">
+                    <h5>Result is - </h5>
+                    <hr>
+                    <h4></h4>
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img class="images img-responsive" src="tape.jpg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Google Lens:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Mobilenet Model:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn btn-info results">
+                    <h5>Result is - </h5>
+                    <hr>
+                    <h4></h4>
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <b>Test Image - </b>
+                    <img class="images img-responsive" src="yarn.jpg">
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Google Lens:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 output">
+                    <h5>Output on <b>Mobilenet Model:-</b><span></span>
+                    </h5>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 btn btn-info results">
+                    <h5>Result is - </h5>
+                    <hr>
+                    <h4></h4>
+                </div>
+            </div>
         </center>
-    </body>
+    </div>
+    <div class="copy_right_footer">
+        Developed by - Kaylee Kim
+    </div>
+</body>
+
 </html>
